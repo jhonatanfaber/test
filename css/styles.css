@@ -1,0 +1,183 @@
+body{
+    text-align: center;
+    background-color: #1E6B7F;
+}
+h4{
+    color: #140303;
+}
+label{
+    color: #140303;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10px;
+    overflow: hidden;
+    background-color: #44b4c4;
+    /*position: fixed;*/
+    top: 0;
+    width: 100%;
+}
+
+#member{
+    display: none;
+}
+nav li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+td a{
+    color: #0101DF;
+    padding: 14px;
+}
+
+form li {
+    background-color: white;
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 8px;
+    text-decoration: none;
+}
+.entrada{
+    position: absolute;
+    left: 12%;
+    background-color: lightblue;
+}
+
+select[name="tipo"]{
+    position: absolute;
+    left: 12%;
+    background-color: lightblue;
+}
+input[name='create']{
+    position: absolute;
+    left: 3%;
+}
+input[name='limpiar']{
+    position: absolute;
+}
+input[name='modificacion']{
+    position: absolute;
+}
+#file{
+	display:block;
+    margin:0 auto;
+}
+
+li a:hover {
+    background-color: lightblue;
+    text-decoration: none;
+}
+
+
+legend{
+    color: #0101DF;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.formularioacceso {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #73AD21;
+    background-color: white;
+}
+.formularioCrearUsuario{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #73AD21;
+    background-color: white;
+}
+
+#enviando {
+    background-color: #5882FA;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 5px;
+}
+i{
+    color: #5882FA;
+}
+
+.tablas {
+    margin: 20px;
+    text-align: left;
+    table-layout: auto;
+    width: auto;/*osea toda la pagina web*/
+    border: 1px solid black;
+    border-collapse: collapse; /*para q no se muestren lor bordes de las celdas*/
+    /*caption-side: bottom; sirve para ubicar el nombre de la tabla ya sea top o botton*/
+}
+table, th,td{
+    padding: 5px;
+    border: 1px solid black;
+}
+th {
+    text-align: center;
+}
+caption {
+    text-align: center;
+    font-size: 25px;
+    color: #140303;
+    font-family: "Times New Roman", Times, serif;
+}
+.tablas tr:nth-child(odd){/* da color a los hijos impares */
+    background-color: #85929E
+}
+.tablas tr:nth-child(even){/* da color a los hijos pares */
+    background-color: #BFC9CA
+}
+
+.tablas tr:hover {
+    background: whitesmoke;
+}
+.tablas th {
+    background-color: #259F6C;
+}
+
+.event{
+    background-color: whitesmoke;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 30%;
+    text-align: center;
+    color: #0D47A1;
+}
+
+/*.cesta {
+    margin: 10px;
+    border: 1px solid #999999;
+    border-radius: 5px / 5px;
+    background: #dddddd;
+=======
+#member{
+    display:none;
+>>>>>>> 5fba651df4c04cb009c6f4bd7f6ef02144c74c16
+}
+
+#antenna{
+    display:none;
+}

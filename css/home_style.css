@@ -1,0 +1,86 @@
+body, div{
+    margin: 0px;
+}
+
+button{
+    text-align: right;
+    display: inline;
+    border: 1px solid cadetblue;
+}
+
+h1{
+    text-align: center;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    margin-bottom:10px;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    font-family: Arial;
+
+
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.header{
+    width: auto;
+    height: 150px;
+    background-color: #00649f;
+    border: 2px solid;
+}
+.header h1{
+    padding-left: 23%;
+
+}
+.header img{
+    background-color: antiquewhite;
+    width: 150px;
+    height: 130px;
+    padding: 10px;
+    float:left;
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #01aac1;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #00dbdbe7;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #97ecc5;
+    color: #453246;
+}
+
+.button:active {
+    background-color: #97ecc5;
+    color: #453246;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.buttons{
+    text-align: right;
+}
+
+
+.second{
+    height: auto;
+
+    background-image: url("light-tile.gif");
+    width: auto;
+    text-align: center;
+}
+

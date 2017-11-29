@@ -1,0 +1,58 @@
+.header {  color: white;  background-color: #0D47A1;  }
+.footer {  background-color: white  }
+.crearEvento {  background-color: lightgray;  }
+.verEvento {  background-color: lightgray  }
+.sesion {  background-color: lightgray  }
+body {
+    margin: 0 auto;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1.5fr 0.25% 1.5fr 0.25% 2fr;
+    grid-template-rows: auto 30px auto;
+}
+
+.header,
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+.header {
+    grid-row: 1;
+}
+
+.crearEvento {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+}
+
+.verEvento {
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+}
+
+.sesion {
+    grid-column: 5;
+    grid-row: 2;
+    text-align: center;
+
+}
+
+.footer {
+    grid-row: 3;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:1fr 1fr;
+    justify-items: center;
+}
+
+.out{
+    align-self: center;
+}
+
